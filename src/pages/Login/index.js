@@ -9,7 +9,8 @@ const [email, setEmail] = useState('');
     const response = await api.post('/sessions',{ email });
 
     const { _id } = response.data;
-
+    
+    //salvando id do usuario no local storage
     localStorage.setItem('user', _id);  
 
   }
