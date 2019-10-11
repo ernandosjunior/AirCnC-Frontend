@@ -1,4 +1,4 @@
-aula atual 03 time = 55:30
+aula atual 03 time = 56:11
 
 Aprendendo React programando o app da Omnistack 9.0
 

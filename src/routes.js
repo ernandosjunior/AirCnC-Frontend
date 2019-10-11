@@ -11,9 +11,9 @@ export default function Routes(){
         //Route deixa mais de uma rota ao mesmo tempo, switch previne esse comportamento, so podendo chamar uma de cada vez.
         <BrowserRouter>
             <Switch>
-                <Route path='/' exat component={Login}/>
-                <Route path='/Dashboard' component={Dashboard}/>
-                <Route path='/New' component={New}/>
+                <Route path='/' exact component={Login}/>
+                <Route path='/dashboard' component={Dashboard}/>
+                <Route path='/new' component={New}/>
             </Switch>
         </BrowserRouter>
     );
