@@ -8,6 +8,7 @@ import New from './pages/New';
 
 export default function Routes(){
     return (
+        //Route deixa mais de uma rota ao mesmo tempo, switch previne esse comportamento, so podendo chamar uma de cada vez.
         <BrowserRouter>
             <Switch>
                 <Route path='/' exat component={Login}/>

@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import api from '../../services/api';
 
-const [email, setEmail] = useState('');
+export default function Login(){
+  const [email, setEmail] = useState('');
 
   async function handleSubmit(event){
     event.preventDefault();
@@ -15,7 +16,7 @@ const [email, setEmail] = useState('');
 
   }
 
-export default function Login(){
+
     return (
         <>
         <p>
